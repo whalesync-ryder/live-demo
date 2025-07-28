@@ -32,6 +32,25 @@
         "defaultValueIfAbsent": null,
         "allowsMultipleValues": false
       }
+    },
+    {
+      "remoteColumnId": "country",
+      "displayName": "country",
+      "dataType": "github/string",
+      "typeMetadata": {
+        "displayName": "text",
+        "supportsWrite": true,
+        "supportsRead": true,
+        "required": false,
+        "allowsMultipleValues": false,
+        "isPrimary": false,
+        "displayIcon": "text-aa",
+        "defaultValueIfAbsent": null,
+        "stringMetadata": {
+          "isMultilineString": true,
+          "charMaxLength": null
+        }
+      }
     }
   ]
 }
