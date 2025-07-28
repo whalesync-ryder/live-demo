@@ -89,6 +89,25 @@
           "charMaxLength": null
         }
       }
+    },
+    {
+      "remoteColumnId": "founded",
+      "displayName": "founded",
+      "dataType": "github/string",
+      "typeMetadata": {
+        "displayName": "integer",
+        "supportsWrite": true,
+        "supportsRead": true,
+        "required": false,
+        "allowsMultipleValues": false,
+        "isPrimary": false,
+        "displayIcon": "number-circle-one",
+        "defaultValueIfAbsent": null,
+        "numericalMetadata": {
+          "isNumerical": true,
+          "type": "integer"
+        }
+      }
     }
   ]
 }
